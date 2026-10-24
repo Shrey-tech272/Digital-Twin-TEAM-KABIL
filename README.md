@@ -7,7 +7,7 @@ Built for the **Happiest Health "Reimagining and Reforming Healthcare in India" 
 
 | | |
 |---|---|
-| 🎥 **Demo video (15–20 min)** | **[Watch on YouTube (unlisted)](https://youtu.be/REPLACE_WITH_YOUR_LINK)** |
+| 🎥 **Demo video (15–20 min)** | **https://drive.google.com/drive/folders/1wXBy1RE3mxANaty-DpRDlmn1czkdpNU4** |
 | 🏗️ **Architecture diagram** | [`docs/Manas_Twin_Architecture.pdf`](docs/Manas_Twin_Architecture.pdf) · [`.pptx`](docs/Manas_Twin_Architecture.pptx) |
 | 📊 **Presentation** | [`docs/Manas_Twin_Presentation.pdf`](docs/Manas_Twin_Presentation.pdf) · [`.pptx`](docs/Manas_Twin_Presentation.pptx) |
 | 🤖 **Model details** | [`MODEL.md`](MODEL.md) |
