@@ -1,0 +1,894 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "MT0441",
+        "gender": "male",
+        "extension": [
+          {
+            "url": "urn:manas-twin:cohort",
+            "valueString": "student"
+          },
+          {
+            "url": "urn:manas-twin:age",
+            "valueInteger": 18
+          }
+        ],
+        "address": [
+          {
+            "city": "Kochi",
+            "country": "IN"
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/MT0441"
+        },
+        "effectiveDateTime": "2025-01-16",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "44261-6",
+              "display": "PHQ-9 total score"
+            }
+          ]
+        },
+        "valueQuantity": {
+          "value": 10.0,
+          "unit": "{score}"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/MT0441"
+        },
+        "effectiveDateTime": "2025-02-10",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "44261-6",
+              "display": "PHQ-9 total score"
+            }
+          ]
+        },
+        "valueQuantity": {
+          "value": 13.0,
+          "unit": "{score}"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/MT0441"
+        },
+        "effectiveDateTime": "2025-03-15",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "44261-6",
+              "display": "PHQ-9 total score"
+            }
+          ]
+        },
+        "valueQuantity": {
+          "value": 15.0,
+          "unit": "{score}"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/MT0441"
+        },
+        "effectiveDateTime": "2025-04-19",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "44261-6",
+              "display": "PHQ-9 total score"
+            }
+          ]
+        },
+        "valueQuantity": {
+          "value": 8.0,
+          "unit": "{score}"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/MT0441"
+        },
+        "effectiveDateTime": "2025-05-16",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "44261-6",
+              "display": "PHQ-9 total score"
+            }
+          ]
+        },
+        "valueQuantity": {
+          "value": 22.0,
+          "unit": "{score}"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/MT0441"
+        },
+        "effectiveDateTime": "2025-05-17",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "44261-6",
+              "display": "PHQ-9 total score"
+            }
+          ]
+        },
+        "valueQuantity": {
+          "value": 16.0,
+          "unit": "{score}"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "subject": {
+          "reference": "Patient/MT0441"
+        },
+        "onsetDateTime": "2025-05-17",
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "F32",
+              "display": "Depressive episode"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/MT0441"
+        },
+        "effectiveDateTime": "2025-05-17",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "N06AB10",
+              "display": "Escitalopram 10 mg OD"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/MT0441"
+        },
+        "effectiveDateTime": "2025-05-15",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate (resting)"
+            }
+          ]
+        },
+        "valueQuantity": {
+          "value": 67.15,
+          "unit": "/min"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/MT0441"
+        },
+        "effectiveDateTime": "2025-05-15",
+        "code": {
+          "coding": [
+            {
+              "system": "urn:manas-twin:signal",
+              "code": "sleep_hours",
+              "display": "Sleep duration"
+            }
+          ]
+        },
+        "valueQuantity": {
+          "value": 6.56,
+          "unit": "h"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/MT0441"
+        },
+        "effectiveDateTime": "2025-05-15",
+        "code": {
+          "coding": [
+            {
+              "system": "urn:manas-twin:signal",
+              "code": "hrv_rmssd",
+              "display": "Heart-rate variability (HRV)"
+            }
+          ]
+        },
+        "valueQuantity": {
+          "value": 31.41,
+          "unit": "ms"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/MT0441"
+        },
+        "effectiveDateTime": "2025-05-15",
+        "code": {
+          "coding": [
+            {
+              "system": "urn:manas-twin:signal",
+              "code": "steps",
+              "display": "Daily steps"
+            }
+          ]
+        },
+        "valueQuantity": {
+          "value": 4653.0,
+          "unit": "steps"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/MT0441"
+        },
+        "effectiveDateTime": "2025-05-15",
+        "code": {
+          "coding": [
+            {
+              "system": "urn:manas-twin:signal",
+              "code": "night_screen_min",
+              "display": "Late-night screen time"
+            }
+          ]
+        },
+        "valueQuantity": {
+          "value": 95.0,
+          "unit": "min"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/MT0441"
+        },
+        "effectiveDateTime": "2025-05-16",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate (resting)"
+            }
+          ]
+        },
+        "valueQuantity": {
+          "value": 65.85,
+          "unit": "/min"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/MT0441"
+        },
+        "effectiveDateTime": "2025-05-16",
+        "code": {
+          "coding": [
+            {
+              "system": "urn:manas-twin:signal",
+              "code": "sleep_hours",
+              "display": "Sleep duration"
+            }
+          ]
+        },
+        "valueQuantity": {
+          "value": 7.51,
+          "unit": "h"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/MT0441"
+        },
+        "effectiveDateTime": "2025-05-16",
+        "code": {
+          "coding": [
+            {
+              "system": "urn:manas-twin:signal",
+              "code": "hrv_rmssd",
+              "display": "Heart-rate variability (HRV)"
+            }
+          ]
+        },
+        "valueQuantity": {
+          "value": 30.19,
+          "unit": "ms"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/MT0441"
+        },
+        "effectiveDateTime": "2025-05-16",
+        "code": {
+          "coding": [
+            {
+              "system": "urn:manas-twin:signal",
+              "code": "steps",
+              "display": "Daily steps"
+            }
+          ]
+        },
+        "valueQuantity": {
+          "value": 2440.0,
+          "unit": "steps"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/MT0441"
+        },
+        "effectiveDateTime": "2025-05-16",
+        "code": {
+          "coding": [
+            {
+              "system": "urn:manas-twin:signal",
+              "code": "night_screen_min",
+              "display": "Late-night screen time"
+            }
+          ]
+        },
+        "valueQuantity": {
+          "value": 105.0,
+          "unit": "min"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/MT0441"
+        },
+        "effectiveDateTime": "2025-05-17",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate (resting)"
+            }
+          ]
+        },
+        "valueQuantity": {
+          "value": 67.84,
+          "unit": "/min"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/MT0441"
+        },
+        "effectiveDateTime": "2025-05-17",
+        "code": {
+          "coding": [
+            {
+              "system": "urn:manas-twin:signal",
+              "code": "sleep_hours",
+              "display": "Sleep duration"
+            }
+          ]
+        },
+        "valueQuantity": {
+          "value": 7.83,
+          "unit": "h"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/MT0441"
+        },
+        "effectiveDateTime": "2025-05-17",
+        "code": {
+          "coding": [
+            {
+              "system": "urn:manas-twin:signal",
+              "code": "hrv_rmssd",
+              "display": "Heart-rate variability (HRV)"
+            }
+          ]
+        },
+        "valueQuantity": {
+          "value": 35.33,
+          "unit": "ms"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/MT0441"
+        },
+        "effectiveDateTime": "2025-05-17",
+        "code": {
+          "coding": [
+            {
+              "system": "urn:manas-twin:signal",
+              "code": "steps",
+              "display": "Daily steps"
+            }
+          ]
+        },
+        "valueQuantity": {
+          "value": 1489.0,
+          "unit": "steps"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/MT0441"
+        },
+        "effectiveDateTime": "2025-05-17",
+        "code": {
+          "coding": [
+            {
+              "system": "urn:manas-twin:signal",
+              "code": "night_screen_min",
+              "display": "Late-night screen time"
+            }
+          ]
+        },
+        "valueQuantity": {
+          "value": 136.0,
+          "unit": "min"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/MT0441"
+        },
+        "effectiveDateTime": "2025-05-18",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate (resting)"
+            }
+          ]
+        },
+        "valueQuantity": {
+          "value": 64.19,
+          "unit": "/min"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/MT0441"
+        },
+        "effectiveDateTime": "2025-05-18",
+        "code": {
+          "coding": [
+            {
+              "system": "urn:manas-twin:signal",
+              "code": "sleep_hours",
+              "display": "Sleep duration"
+            }
+          ]
+        },
+        "valueQuantity": {
+          "value": 5.81,
+          "unit": "h"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/MT0441"
+        },
+        "effectiveDateTime": "2025-05-18",
+        "code": {
+          "coding": [
+            {
+              "system": "urn:manas-twin:signal",
+              "code": "hrv_rmssd",
+              "display": "Heart-rate variability (HRV)"
+            }
+          ]
+        },
+        "valueQuantity": {
+          "value": 32.7,
+          "unit": "ms"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/MT0441"
+        },
+        "effectiveDateTime": "2025-05-18",
+        "code": {
+          "coding": [
+            {
+              "system": "urn:manas-twin:signal",
+              "code": "steps",
+              "display": "Daily steps"
+            }
+          ]
+        },
+        "valueQuantity": {
+          "value": 523.0,
+          "unit": "steps"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/MT0441"
+        },
+        "effectiveDateTime": "2025-05-18",
+        "code": {
+          "coding": [
+            {
+              "system": "urn:manas-twin:signal",
+              "code": "night_screen_min",
+              "display": "Late-night screen time"
+            }
+          ]
+        },
+        "valueQuantity": {
+          "value": 97.0,
+          "unit": "min"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/MT0441"
+        },
+        "effectiveDateTime": "2025-05-20",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate (resting)"
+            }
+          ]
+        },
+        "valueQuantity": {
+          "value": 65.92,
+          "unit": "/min"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/MT0441"
+        },
+        "effectiveDateTime": "2025-05-20",
+        "code": {
+          "coding": [
+            {
+              "system": "urn:manas-twin:signal",
+              "code": "sleep_hours",
+              "display": "Sleep duration"
+            }
+          ]
+        },
+        "valueQuantity": {
+          "value": 8.12,
+          "unit": "h"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/MT0441"
+        },
+        "effectiveDateTime": "2025-05-20",
+        "code": {
+          "coding": [
+            {
+              "system": "urn:manas-twin:signal",
+              "code": "hrv_rmssd",
+              "display": "Heart-rate variability (HRV)"
+            }
+          ]
+        },
+        "valueQuantity": {
+          "value": 29.02,
+          "unit": "ms"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/MT0441"
+        },
+        "effectiveDateTime": "2025-05-20",
+        "code": {
+          "coding": [
+            {
+              "system": "urn:manas-twin:signal",
+              "code": "steps",
+              "display": "Daily steps"
+            }
+          ]
+        },
+        "valueQuantity": {
+          "value": 2478.0,
+          "unit": "steps"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/MT0441"
+        },
+        "effectiveDateTime": "2025-05-20",
+        "code": {
+          "coding": [
+            {
+              "system": "urn:manas-twin:signal",
+              "code": "night_screen_min",
+              "display": "Late-night screen time"
+            }
+          ]
+        },
+        "valueQuantity": {
+          "value": 113.0,
+          "unit": "min"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/MT0441"
+        },
+        "effectiveDateTime": "2025-05-21",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate (resting)"
+            }
+          ]
+        },
+        "valueQuantity": {
+          "value": 63.52,
+          "unit": "/min"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/MT0441"
+        },
+        "effectiveDateTime": "2025-05-21",
+        "code": {
+          "coding": [
+            {
+              "system": "urn:manas-twin:signal",
+              "code": "sleep_hours",
+              "display": "Sleep duration"
+            }
+          ]
+        },
+        "valueQuantity": {
+          "value": 6.88,
+          "unit": "h"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/MT0441"
+        },
+        "effectiveDateTime": "2025-05-21",
+        "code": {
+          "coding": [
+            {
+              "system": "urn:manas-twin:signal",
+              "code": "hrv_rmssd",
+              "display": "Heart-rate variability (HRV)"
+            }
+          ]
+        },
+        "valueQuantity": {
+          "value": 23.12,
+          "unit": "ms"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/MT0441"
+        },
+        "effectiveDateTime": "2025-05-21",
+        "code": {
+          "coding": [
+            {
+              "system": "urn:manas-twin:signal",
+              "code": "steps",
+              "display": "Daily steps"
+            }
+          ]
+        },
+        "valueQuantity": {
+          "value": 4999.0,
+          "unit": "steps"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/MT0441"
+        },
+        "effectiveDateTime": "2025-05-21",
+        "code": {
+          "coding": [
+            {
+              "system": "urn:manas-twin:signal",
+              "code": "night_screen_min",
+              "display": "Late-night screen time"
+            }
+          ]
+        },
+        "valueQuantity": {
+          "value": 97.0,
+          "unit": "min"
+        }
+      }
+    }
+  ]
+}
