@@ -1,0 +1,7 @@
+{
+  "note": "Test-set patients (never seen during training) used in the demo. Chosen because they illustrate the full twin story clearly.",
+  "patients": [
+    {"patient_id": "MT0441", "story": "18-year-old engineering student, Kochi. Episode begins during end-semester exams; the twin raises an early warning 7 days before onset, while the clinical diagnosis only came ~19 days after onset.", "suggested_day": 112},
+    {"patient_id": "MT0156", "story": "28-year-old IT professional, Indore. Episode begins at quarter-end crunch; twin flags it 7 days ahead with no false alerts in the preceding months.", "suggested_day": 82}
+  ]
+}

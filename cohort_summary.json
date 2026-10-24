@@ -1,0 +1,11 @@
+{
+  "patients": 600,
+  "days_per_patient": 240,
+  "person_days": 144000,
+  "episodes": 175,
+  "patients_with_episode": 148,
+  "pct_patients_with_episode": 24.7,
+  "missing_day_rate_pct": 6.5,
+  "phq9_screenings": 3340,
+  "diagnoses": 139
+}
