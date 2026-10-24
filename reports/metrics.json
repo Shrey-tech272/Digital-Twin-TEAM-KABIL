@@ -1,0 +1,62 @@
+{
+  "twin": {
+    "auroc": 0.846,
+    "auprc": 0.048,
+    "prevalence": 0.0096,
+    "brier": 0.0095,
+    "threshold": 0.0302,
+    "sensitivity_day_level": 0.254,
+    "specificity_day_level": 0.961,
+    "episodes_evaluated": 40,
+    "episodes_detected": 19,
+    "episode_detection_rate": 0.475,
+    "median_lead_time_days": 6.0,
+    "false_alert_days_per_30_quiet_days": 1.17
+  },
+  "population": {
+    "auroc": 0.807,
+    "auprc": 0.035,
+    "prevalence": 0.0096,
+    "brier": 0.0095,
+    "threshold": 0.0293,
+    "sensitivity_day_level": 0.261,
+    "specificity_day_level": 0.949,
+    "episodes_evaluated": 40,
+    "episodes_detected": 16,
+    "episode_detection_rate": 0.4,
+    "median_lead_time_days": 6.5,
+    "false_alert_days_per_30_quiet_days": 1.55
+  },
+  "data": {
+    "patients": 600,
+    "days_per_patient": 240,
+    "person_days": 144000,
+    "episodes": 175,
+    "patients_with_episode": 148,
+    "pct_patients_with_episode": 24.7,
+    "missing_day_rate_pct": 6.5,
+    "phq9_screenings": 3340,
+    "diagnoses": 139
+  },
+  "split": {
+    "train_patients": 420,
+    "test_patients": 180,
+    "train_rows": 68063,
+    "test_rows": 29227,
+    "test_positive_rows": 280
+  },
+  "top_features": {
+    "phq9_last": 0.6453999876976013,
+    "raw7_night_screen_min": 0.37709999084472656,
+    "phq9_change": 0.3617999851703644,
+    "prior_episodes": 0.329800009727478,
+    "raw7_sleep_efficiency": 0.26010000705718994,
+    "twin_deviation_index": 0.23690000176429749,
+    "z3_resting_hr": 0.21170000731945038,
+    "dz7_sleep_efficiency": 0.20640000700950623,
+    "age": 0.181099995970726,
+    "raw7_sleep_hours": 0.17479999363422394,
+    "z3_sleep_efficiency": 0.15459999442100525,
+    "raw7_social_contacts": 0.1535000056028366
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "dataset": "DEPRESJON (Garcia-Ceja et al., 2018)",
+  "people": 55,
+  "depressed": 23,
+  "complete_days": 1034,
+  "days_per_person_median": 15.0,
+  "q1_person_level": {
+    "auroc_lopo": 0.823,
+    "ci95": [
+      0.705,
+      0.923
+    ],
+    "sensitivity_at_spec80": 0.652
+  },
+  "q1_univariate": {
+    "mean_activity": {
+      "depressed_median": 160.593,
+      "control_median": 204.241,
+      "p_value": 0.0487,
+      "auroc_alone": 0.342
+    },
+    "active_minutes": {
+      "depressed_median": 486.214,
+      "control_median": 535.028,
+      "p_value": 0.2225,
+      "auroc_alone": 0.402
+    },
+    "night_share": {
+      "depressed_median": 0.077,
+      "control_median": 0.065,
+      "p_value": 0.3795,
+      "auroc_alone": 0.571
+    },
+    "rel_amplitude": {
+      "depressed_median": 0.918,
+      "control_median": 0.848,
+      "p_value": 0.186,
+      "auroc_alone": 0.606
+    },
+    "intradaily_var": {
+      "depressed_median": 0.985,
+      "control_median": 0.922,
+      "p_value": 0.5676,
+      "auroc_alone": 0.546
+    },
+    "rest_minutes": {
+      "depressed_median": 625.357,
+      "control_median": 523.357,
+      "p_value": 0.0746,
+      "auroc_alone": 0.643
+    },
+    "day_to_day_var": {
+      "depressed_median": 0.415,
+      "control_median": 0.559,
+      "p_value": 0.0351,
+      "auroc_alone": 0.332
+    }
+  },
+  "q2_day_level": {
+    "raw": {
+      "auroc_day_level": 0.602,
+      "ci95": [
+        0.509,
+        0.702
+      ]
+    },
+    "personal_z": {
+      "auroc_day_level": 0.385,
+      "ci95": [
+        0.239,
+        0.54
+      ]
+    },
+    "raw+personal_z": {
+      "auroc_day_level": 0.61,
+      "ci95": [
+        0.495,
+        0.723
+      ]
+    }
+  },
+  "q2_note": "Personal z-scores alone cannot separate groups here (every person is compared with themselves, and there are no within-person episode onsets in this dataset), so the honest reading is: on real data the raw rhythm features carry the between-person signal, and the personal baseline is the layer that would detect within-person change over time - which needs longitudinal data to test.",
+  "q3_madrs_correlation": {
+    "mean_activity": {
+      "spearman_rho": 0.199,
+      "p_value": 0.363
+    },
+    "active_minutes": {
+      "spearman_rho": 0.239,
+      "p_value": 0.272
+    },
+    "night_share": {
+      "spearman_rho": -0.315,
+      "p_value": 0.143
+    },
+    "rel_amplitude": {
+      "spearman_rho": 0.071,
+      "p_value": 0.747
+    },
+    "intradaily_var": {
+      "spearman_rho": -0.183,
+      "p_value": 0.404
+    },
+    "rest_minutes": {
+      "spearman_rho": -0.105,
+      "p_value": 0.632
+    },
+    "day_to_day_var": {
+      "spearman_rho": -0.182,
+      "p_value": 0.406
+    }
+  },
+  "examples": {
+    "condition_2": {
+      "dates": [
+        "2003-05-08",
+        "2003-05-09",
+        "2003-05-10",
+        "2003-05-11",
+        "2003-05-12",
+        "2003-05-13",
+        "2003-05-14",
+        "2003-05-15",
+        "2003-05-16",
+        "2003-05-17",
+        "2003-05-18",
+        "2003-05-19",
+        "2003-05-20",
+        "2003-05-21"
+      ],
+      "mean_activity": [
+        259.6,
+        244.1,
+        155.4,
+        116.5,
+        224.5,
+        241.0,
+        226.5,
+        338.1,
+        279.0,
+        180.2,
+        109.4,
+        68.9,
+        236.9,
+        287.5
+      ],
+      "night_share": [
+        0.051,
+        0.051,
+        0.056,
+        0.088,
+        0.035,
+        0.024,
+        0.04,
+        0.035,
+        0.061,
+        0.05,
+        0.071,
+        0.277,
+        0.061,
+        0.034
+      ],
+      "depressed": 1
+    },
+    "control_3": {
+      "dates": [
+        "2002-11-07",
+        "2002-11-08",
+        "2002-11-09",
+        "2002-11-10",
+        "2002-11-11",
+        "2002-11-12",
+        "2002-11-13",
+        "2002-11-14",
+        "2002-11-15",
+        "2002-11-16",
+        "2002-11-17",
+        "2002-11-18",
+        "2002-11-19",
+        "2002-11-20"
+      ],
+      "mean_activity": [
+        190.9,
+        249.9,
+        300.2,
+        264.4,
+        323.0,
+        225.9,
+        279.5,
+        277.9,
+        290.4,
+        211.2,
+        194.1,
+        304.2,
+        247.0,
+        136.2
+      ],
+      "night_share": [
+        0.0,
+        0.085,
+        0.035,
+        0.04,
+        0.008,
+        0.067,
+        0.035,
+        0.01,
+        0.038,
+        0.206,
+        0.007,
+        0.014,
+        0.009,
+        0.088
+      ],
+      "depressed": 0
+    }
+  }
+}
