@@ -1,0 +1,8 @@
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+.streamlit/secrets.toml
+.venv/
+__pycache__/
+data/depresjon/
+venv/
